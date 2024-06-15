@@ -1,0 +1,36 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    color:white
+}
+#main{
+    width: 50vw;
+    height:  45vh;
+    background-color: #151e42;
+display: flex;
+border-radius: 30px;
+flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0.5em 0.5em 0.9rem #808dc2;
+
+
+}
+#heading{
+    font-size: 2.5rem;
+
+
+}
+#quote{
+	font-size: 1.5em;
+}
+ *{
+    padding: 0;
+    margin: 0;
+ }
