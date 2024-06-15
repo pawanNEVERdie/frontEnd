@@ -17,7 +17,7 @@ data.quotes.forEach( quote=>{
   const quoteText = document.createElement("p");
   quoteText.textContent = `"${quote.quote}"`;
 
-  const authorText = document.createElement("h1");
+  const authorText = document.createElement("");
   authorText.textContent = `- ${quote.author}`;
 
   quoteElement.appendChild(quoteText);
